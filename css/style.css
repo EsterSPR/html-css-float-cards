@@ -17,3 +17,46 @@ h1 {
     font-size: 40pt;
     margin: 30px 0;
 }
+
+main {
+    width: 70%;
+    margin: 0 15%;
+}
+
+#paragrafo {
+    margin: 40px 0;
+}
+
+.card {
+    text-align: left;
+    background-color: #0F0E17;
+    width: 32%;
+    color: #fff;
+    float: left;
+    margin-bottom: 40px;
+}
+
+.notlast {
+    margin-right: 2%;
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+img {
+    float: left;
+    height: 100px;
+    margin-right: 10px;
+}
+
+h3, .caption {
+    line-height: 30px;
+}
+
+a {
+    color: #33A4D6;
+    text-decoration: none;
+}
